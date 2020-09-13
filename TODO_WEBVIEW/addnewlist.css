@@ -1,0 +1,188 @@
+#label1 {
+  background-color: red;
+  width: 15%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+.addnew {
+  position: absolute;
+
+  top: 10px;
+  left: 34%;
+  margin: auto;
+  margin-top: 20vh;
+  border: 2px inset green;
+  border-radius: 20px;
+  width: 30%;
+  background: white;
+  text-align: center;
+}
+#addnew1,
+#label1 {
+  padding: 10px;
+}
+.displayflex {
+  display: flex;
+  position: relative !important;
+  left: 50% !important;
+  filter: blur(4px);
+}
+.tasklist {
+  padding-top: 40px;
+  font-size: 200%;
+}
+.addlist1 {
+  text-align: right;
+  position: relative;
+  left: 28.5vw;
+  height: 100px;
+  display: flex;
+  font-size: 150%;
+}
+.addlist2 {
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+#buttondiv {
+  position: relative;
+  height: 22%;
+  left: 10px;
+  top: 30px;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.699);
+  border-radius: 50%;
+  background-color: rgb(250, 77, 46);
+}
+
+.displayflex1 {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 100px;
+  height: 40vh;
+  justify-content: center;
+  filter: blur(4px);
+}
+
+.displayflex1 > div {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+  height: 38vh;
+  width: 180px;
+  border-radius: 20px;
+  border: 1px solid red;
+  box-shadow: 5px 4px 3.5px rgb(184, 178, 178);
+}
+.ttp1 {
+  padding-top: 25px;
+  margin-left: 30px;
+}
+.div1 {
+  background-color: white;
+}
+.div2 {
+  background-color: white;
+}
+.div3 {
+  background-color: white;
+}
+.content1 {
+  position: relative;
+  left: 40px;
+  top: 20px;
+}
+.content2 {
+  position: relative;
+  top: 40px;
+}
+hr {
+  margin-left: 30px;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 800px) {
+  .displayflex {
+    display: flex;
+    position: relative !important;
+    left: 20% !important;
+    filter: blur(4px);
+  }
+
+  .addlist1 {
+    text-align: right;
+    position: relative;
+    left: 35.5vw;
+    height: 100px;
+    display: flex;
+    font-size: 150%;
+  }
+
+  .displayflex1 {
+    filter: blur(4px);
+  }
+
+  .displayflex1 > div {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .displayflex {
+    position: relative;
+    filter: blur(4px);
+    left: 20% !important;
+    filter: blur(4px);
+  }
+
+  .addlist1 {
+    text-align: right;
+    position: relative;
+    left: 35.5vw;
+    height: 100px;
+    display: flex;
+    font-size: 150%;
+  }
+
+  .displayflex1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: blur(4px);
+  }
+
+  .displayflex1 > div {
+    margin-left: 20px !important;
+    margin-right: 10px !important;
+    width: 200px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .displayflex {
+    position: relative;
+    filter: blur(4px);
+    left: 15% !important;
+  }
+
+  .displayflex1 {
+    display: inline;
+    position: relative;
+    left: 30px;
+    filter: blur(4px);
+  }
+
+  .addlist1 {
+    text-align: right;
+    position: relative;
+    left: 20.5vw;
+    height: 100px;
+    display: flex;
+    font-size: 150%;
+  }
+  .displayflex1 > div {
+    width: 70%;
+    filter: blur(4px);
+    margin-top: 30px;
+  }
+}

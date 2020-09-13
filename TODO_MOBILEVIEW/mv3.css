@@ -1,0 +1,91 @@
+.head {
+  display: flex;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+body {
+  margin-left: 50px;
+}
+
+.addnew {
+  display: none;
+}
+
+#symbol {
+  margin-left: 20px;
+  background-color: rgb(231, 60, 60);
+  border-radius: 50%;
+  padding: 5px;
+  height: 32px;
+  width: 30px;
+  text-align: center;
+  color: white;
+}
+
+#content {
+  position: relative;
+  top: 10px;
+}
+
+.textContent {
+  margin-top: 20px;
+  border: 0.5px solid rgba(255, 62, 62, 0.555);
+  width: 10%;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2.5px 2.5px 3px rgb(160, 156, 156);
+}
+
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+  body {
+    margin-left: 100px;
+  }
+
+  .head {
+    display: flex;
+    margin-top: 30px;
+    font-size: 30px;
+    filter: blur(4px);
+  }
+
+  .textContent {
+    filter: blur(4px);
+    margin-top: 20px;
+    border: 0.5px solid rgba(255, 62, 62, 0.555);
+    width: 60%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px 3px rgb(160, 156, 156);
+  }
+
+  .addnew {
+    position: absolute;
+    display: inline;
+    top: 30vh;
+    left: 20%;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    border: 2px inset green;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+  }
+
+  #textbox {
+    margin: 20px 0;
+  }
+
+  #addnew1 {
+    color: rgb(221, 41, 41);
+  }
+
+  #label1 {
+    background-color: rgb(221, 41, 41);
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+  }
+}

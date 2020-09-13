@@ -1,0 +1,195 @@
+#head {
+  display: flex;
+  position: relative;
+  left: 45%;
+  margin-top: 100px;
+}
+#dirdiv {
+  margin: 0 10px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+}
+.content {
+  width: 18%;
+  height: 30vh;
+  border-radius: 2%;
+  overflow: hidden;
+  position: relative;
+  padding: 10px;
+  top: 40px;
+  left: 40%;
+  border: 0.5px solid red;
+}
+.tripcontent {
+  width: 67%;
+  top: 30px;
+  position: relative;
+  left: 95px;
+  color: rgb(238, 56, 56);
+}
+.content2 {
+  position: relative;
+  top: 45px;
+}
+#ct {
+  position: relative;
+  left: 35%;
+  color: rgb(238, 56, 56);
+}
+
+#pt {
+  position: relative;
+  top: 10px;
+  left: 27.5%;
+}
+
+input {
+  margin-right: 10px;
+}
+
+.btndiv {
+  text-align: center;
+  background-color: rgb(238, 56, 56);
+  width: 10%;
+  color: #fff;
+  height: 25px;
+  padding-top: 10px;
+  position: relative;
+  top: 110px;
+  border-radius: 50%;
+  left: 90%;
+}
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  #head {
+    display: flex;
+    position: relative;
+    left: 40%;
+    margin-top: 100px;
+  }
+  .content {
+    width: 18%;
+    height: 45vh;
+    border-radius: 2%;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+    top: 40px;
+    left: 40%;
+    border: 1px solid red;
+  }
+
+  #dirdiv {
+    margin: 0 10px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    align-items: center;
+  }
+
+  .btndiv {
+    text-align: center;
+    background-color: rgb(238, 56, 56);
+    width: 15%;
+    color: #fff;
+    height: 25px;
+    padding-top: 10px;
+    position: relative;
+    top: 165px;
+    border-radius: 50%;
+    left: 85%;
+  }
+
+  .tripcontent {
+    width: 77%;
+    position: relative;
+    left: 61px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  h1 {
+    width: 60%;
+  }
+
+  #text {
+    font-size: 40px;
+  }
+
+  #head {
+    display: flex;
+    position: relative;
+    left: 25%;
+    margin-top: 100px;
+  }
+
+  .content {
+    width: 30%;
+    height: 50vh;
+    border-radius: 2%;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+    top: 40px;
+    left: 32%;
+    border: 0.5px solid red;
+  }
+
+  .btndiv {
+    text-align: center;
+    background-color: rgb(238, 56, 56);
+    width: 15%;
+    color: #fff;
+    height: 25px;
+    padding-top: 10px;
+    position: relative;
+    top: 165px;
+    border-radius: 50%;
+    left: 85%;
+  }
+
+  .tripcontent {
+    width: 77%;
+    position: relative;
+    left: 61px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  h1 {
+    width: 60%;
+  }
+
+  .content {
+    width: 50%;
+    height: 50vh;
+    border-radius: 2%;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+    top: 90px;
+    left: 25%;
+    border: 0.5px solid red;
+  }
+
+  .btndiv {
+    text-align: center;
+    background-color: rgb(238, 56, 56);
+    width: 15%;
+    color: #fff;
+    height: 25px;
+    padding-top: 10px;
+    position: relative;
+    top: 165px;
+    border-radius: 50%;
+    left: 85%;
+  }
+
+  .tripcontent {
+    width: 77%;
+    position: relative;
+    left: 61px;
+  }
+}

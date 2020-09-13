@@ -1,0 +1,308 @@
+#head {
+  display: flex;
+  position: relative;
+  left: 45%;
+  margin-top: 100px;
+}
+#dirdiv {
+  margin: 0 10px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+}
+
+.addnew {
+  position: absolute;
+  display: none;
+  top: 10px;
+  left: 34%;
+  margin: auto;
+  margin-top: 20vh;
+  border: 2px inset green;
+  border-radius: 20px;
+  width: 30%;
+  background: white;
+  text-align: center;
+}
+.content {
+  width: 18%;
+  height: 30vh;
+  border-radius: 2%;
+  overflow: hidden;
+  position: relative;
+  padding: 10px;
+  top: 40px;
+  left: 40%;
+  border: 0.5px solid red;
+}
+.tripcontent {
+  width: 67%;
+  top: 30px;
+  position: relative;
+  left: 95px;
+  color: rgb(238, 56, 56);
+}
+.content2 {
+  position: relative;
+  top: 45px;
+}
+#ct {
+  position: relative;
+  left: 35%;
+  color: rgb(238, 56, 56);
+}
+
+#pt {
+  position: relative;
+  top: 10px;
+  left: 27.5%;
+}
+
+input {
+  margin-right: 10px;
+}
+
+.btndiv {
+  text-align: center;
+  background-color: rgb(238, 56, 56);
+  width: 10%;
+  color: #fff;
+  height: 25px;
+  padding-top: 10px;
+  position: relative;
+  top: 110px;
+  border-radius: 50%;
+  left: 90%;
+}
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  #head {
+    display: flex;
+    position: relative;
+    left: 40%;
+    filter: blur(4px);
+    margin-top: 100px;
+  }
+
+  .addnew {
+    position: absolute;
+    display: inline;
+    top: 30vh;
+    left: 20%;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    border: 2px inset green;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+  }
+  #textbox {
+    margin: 20px 0;
+  }
+  #addnew1 {
+    color: rgb(221, 41, 41);
+  }
+
+  #label1 {
+    background-color: rgb(221, 41, 41);
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .content {
+    filter: blur(4px);
+    width: 18%;
+    height: 50vh;
+    border-radius: 2%;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+    top: 40px;
+    left: 40%;
+    border: 0.5px solid red;
+  }
+
+  #dirdiv {
+    margin: 0 10px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    align-items: center;
+  }
+
+  .btndiv {
+    text-align: center;
+    background-color: rgb(238, 56, 56);
+    width: 15%;
+    color: #fff;
+    height: 25px;
+    padding-top: 10px;
+    position: relative;
+    top: 165px;
+    border-radius: 50%;
+    left: 85%;
+  }
+
+  .tripcontent {
+    width: 77%;
+    position: relative;
+    left: 61px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  h1 {
+    width: 60%;
+  }
+
+  #text {
+    font-size: 40px;
+  }
+
+  #head {
+    display: flex;
+    position: relative;
+    left: 25%;
+    margin-top: 100px;
+    filter: blur(4px);
+  }
+
+  .content {
+    filter: blur(4px);
+    width: 30%;
+    height: 50vh;
+    border-radius: 2%;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+    top: 40px;
+    left: 32%;
+    border: 0.5px solid red;
+  }
+
+  .btndiv {
+    text-align: center;
+    background-color: rgb(238, 56, 56);
+    width: 15%;
+    color: #fff;
+    height: 25px;
+    padding-top: 10px;
+    position: relative;
+    top: 165px;
+    border-radius: 50%;
+    left: 85%;
+  }
+
+  .tripcontent {
+    width: 77%;
+    position: relative;
+    left: 61px;
+  }
+
+  .addnew {
+    position: absolute;
+    display: inline;
+    top: 30vh;
+    left: 20%;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    border: 2px inset green;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+  }
+  #textbox {
+    margin: 20px 0;
+  }
+  #addnew1 {
+    color: rgb(221, 41, 41);
+  }
+
+  #label1 {
+    background-color: rgb(221, 41, 41);
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  h1 {
+    width: 60%;
+  }
+
+  #head {
+    display: flex;
+    position: relative;
+    left: 35%;
+    margin-top: 100px;
+    filter: blur(4px);
+  }
+
+  .content {
+    width: 50%;
+    height: 50vh;
+    border-radius: 2%;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+    top: 90px;
+    left: 25%;
+    border: 0.5px solid red;
+    filter: blur(4px);
+  }
+
+  .btndiv {
+    text-align: center;
+    background-color: rgb(238, 56, 56);
+    width: 15%;
+    color: #fff;
+    height: 25px;
+    padding-top: 10px;
+    position: relative;
+    top: 165px;
+    border-radius: 50%;
+    left: 85%;
+  }
+
+  .tripcontent {
+    width: 77%;
+    position: relative;
+    filter: blur(4px);
+    left: 61px;
+  }
+
+  .addnew {
+    position: absolute;
+    display: inline;
+    top: 30vh;
+    left: 20%;
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    border: 2px inset green;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+  }
+  #textbox {
+    margin: 20px 0;
+  }
+  #addnew1 {
+    color: rgb(221, 41, 41);
+  }
+
+  #label1 {
+    background-color: rgb(221, 41, 41);
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+  }
+}
